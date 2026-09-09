@@ -3,3 +3,14 @@
 /* Grid */
 
 /* Responsivitet */
+
+/* Tillfälligt för att kunna se vafan jag gör på sidan*/
+
+.schema {
+    border: 1px solid;
+    margin: 10px;
+}
+
+.schema div {
+    padding: 5px;
+}
