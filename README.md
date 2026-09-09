@@ -5,6 +5,7 @@ En fiktiv sida om en typ spel mässa som är skapt med HTML och CSS. Gjord på e
 Sidan innehåller:
 - Navigation
 - Hero sektion med datum, plats och namn/titel
+- Sjuuuukt cool logga
 - Schema/tidstabell
 - Highlights
 - Kontakt info och sponsorer (fiktiva såklart)
