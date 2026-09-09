@@ -10,18 +10,17 @@
 
 <body>
     <header>
-        <!-- logga/eventnamn som länk -->
+        <nav>
+            <!-- länkar: #hero, #schedule, #highlights, #footer -->
+            <a href="#hero">Hero</a>
+            <a href="#schema">Schema</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#footer">Kontakt</a>
+        </nav>
     </header>
 
-    <nav>
-        <!-- länkar: #hero, #schedule, #highlights, #footer -->
-        <a href="#hero">Hero</a>
-        <a href="#schema">Schema</a>
-        <a href="#highlights">Highlights</a>
-        <a href="#footer">Footer</a>
-    </nav>
-
     <main>
+
         <section id="hero">
             <!-- h1, bild, datum/plats, kort beskrivning -->
             <h1>Nordic Game Fest</h1>
@@ -33,16 +32,57 @@
         <section id="schema">
             <h2>Schema</h2>
             <!-- grid-container med schedule-items -->
+            <div class="schema">
+                <div>Tid</div>
+                <div>Lördag</div>
+                <div>Söndag</div>
+
+                <div>Söndag</div>
+                <div>Söndag</div>
+                <div>Söndag</div>
+
+                <div>Söndag</div>
+                <div>Söndag</div>
+                <div>Söndag</div>
+
+                <div>Söndag</div>
+                <div>Söndag</div>
+                <div>Söndag</div>
+            </div>
         </section>
 
         <section id="highlights">
             <h2>Höjdpunkter</h2>
             <!-- flex-container med kort -->
+            <div class="kort">
+                <article>
+                    <h3>Retro Hallen</h3>
+                    <p>För den som är fast i det förflutna.</p>
+                </article>
+
+                <article>
+                    <h3>Brädspel</h3>
+                    <p>brääääädspel</p>
+                </article>
+
+                <article>
+                    <h3>Nytt grejs</h3>
+                    <p>Nya realeser</p>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer id="footer">
         <!-- kontakt + sponsorer -->
+        <h2>Kontakt</h2>
+        <p>info@nordicgamefest.se</p>
+        <p>073-1230000</p>
+
+        <h3>Sponsorer</h3>
+        <p>Nästan Doritos AB, Koffeinfri Energi, Klas baklucke handel</p>
+
+        <p>Nordic Game Fest</p>
     </footer>
 </body>
 
