@@ -17,6 +17,26 @@ header {
     padding: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5C3E94;
+    border: 1px solid #5C3E94;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
+
 /* Flex box */
 
 /* Grid */
