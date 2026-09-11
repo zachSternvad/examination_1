@@ -1,16 +1,24 @@
+/* Grund styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #211832;
+    color: white;
+}
+
+/* Navigation */
+
+header {
+    background-color: #222831;
+    padding: 20px;
+}
+
 /* Flex box */
 
 /* Grid */
 
 /* Responsivitet */
-
-/* Tillfälligt för att kunna se vafan jag gör på sidan*/
-
-.schema {
-    border: 1px solid;
-    margin: 10px;
-}
-
-.schema div {
-    padding: 5px;
-}
