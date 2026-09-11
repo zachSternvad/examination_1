@@ -29,10 +29,6 @@ nav a {
 
 nav a:hover {
     color: #5C3E94;
-    border: 1px solid #5C3E94;
-    border-radius: 5px;
-    border-width: 2px;
-    padding: 2px;
     font-weight: bold;
 }
 
@@ -100,5 +96,22 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+
+    .schema {
+        grid-template-columns: 80px 1fr;
+    }
+
+    .schema div {
+        padding: 10px;
+    }
+
+    .kort {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kort article {
+        width: 100%;
     }
 }
