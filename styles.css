@@ -11,7 +11,6 @@ body {
 }
 
 /* Navigation */
-
 header {
     background-color: #222831;
     padding: 20px;
@@ -37,7 +36,40 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* Hero */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #5C3E94;
+}
+
+#hero img {
+    width: 300px;
+    max-width: 100%;
+}
+
 /* Flex box */
+#highlights {
+    padding: 40px 10%;
+    background-color: #222831;
+}
+
+.kort {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kort article {
+    width: 250px;
+    padding: 20px;
+    background-color: #393E46;
+}
+
+.kort img {
+    width: 100%;
+}
 
 /* Grid */
 
