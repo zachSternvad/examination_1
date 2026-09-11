@@ -72,5 +72,19 @@ nav a:hover {
 }
 
 /* Grid */
+#schema {
+    padding: 40px 10%;
+}
+
+.schema {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.schema div {
+    padding: 15px;
+    background-color: #393E46;
+}
 
 /* Responsivitet */
